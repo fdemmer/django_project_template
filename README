@@ -1,0 +1,18 @@
+A Django startproject template
+
+https://docs.djangoproject.com/en/1.9/ref/django-admin/#django-admin-startproject
+
+
+About
+-----
+
+- based on Django 1.9.1
+- settings module
+- version.py
+
+
+Usage
+-----
+
+    django-admin startproject --template=https://github.com/fdemmer/django_project_template/archive/master.zip foo
+
