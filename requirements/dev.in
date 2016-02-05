@@ -1,3 +1,11 @@
+# development requirements/dependencies
+#
+
 - r base.in
+
+ipdb
+ipython
+
+django-debug-toolbar
 
 pip-tools
