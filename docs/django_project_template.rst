@@ -1,19 +1,26 @@
-A Django startproject template
-==============================
+Django startproject template
+============================
 
-Read up on Django startporject templates in the official documentation [1]_.
+Read up on Django startproject templates in the official documentation [1]_.
+
+The latest version of the template can be found on github [2]_.
 
 
 About
 -----
 
-This started out as a copy of the original Django template and a few things 
-were added or modified:
+Basis for this template was the Django 1.9 standard template.
+A few things were added or modified.
 
 - based on Django 1.9.1 template
 - make settings a module (default uses `settings.dev`)
 - add version.py (`__version__` available via settings)
-- add requirements (uses pip-tools)
+- add requirements
+  - uses pip-tools
+  - requirements organized by environment
+  - `requirements.txt` points to `requirements/dev.txt`
+- add extra packages
+  - django-extensions
 
 
 Usage
@@ -42,3 +49,5 @@ Enjoy your new Django project::
 
 
 .. [1] https://docs.djangoproject.com/en/1.9/ref/django-admin/#django-admin-startproject
+.. [2] https://github.com/fdemmer/django_project_template
+
