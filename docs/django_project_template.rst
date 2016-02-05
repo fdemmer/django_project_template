@@ -21,6 +21,7 @@ A few things were added or modified.
   - `requirements.txt` points to `requirements/dev.txt`
 - add extra packages
   - django-extensions
+  - django-debugtoolbar (only in `requirements/dev.txt`)
 
 
 Usage

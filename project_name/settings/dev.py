@@ -7,3 +7,7 @@ from .project import *
 SECRET_KEY = '{{ secret_key }}'
 
 DEBUG = True
+
+INSTALLED_APPS += [
+    'debug_toolbar',
+]
