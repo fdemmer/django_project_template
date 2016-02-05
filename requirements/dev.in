@@ -1,7 +1,7 @@
 # development requirements/dependencies
 #
 
-- r base.in
+-r base.in
 
 ipdb
 ipython
