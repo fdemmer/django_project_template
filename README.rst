@@ -34,7 +34,7 @@ After that change into your new project directory "foo" and update
 the virtualenv with the recommended dev requirements::
 
     cd foo
-    pip install -r requirements/dev.txt
+    pip install -r requirements.txt
 
 Enjoy your new Django project::
 
