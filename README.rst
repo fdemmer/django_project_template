@@ -13,13 +13,13 @@ were added or modified:
 - based on Django 1.9.1 template
 - make settings a module
 - add version.py
-- add requirements
+- add requirements (uses pip-tools)
 
 
 Usage
 -----
 
-to create a new project called "foo" run startproject either directly from 
+To create a new project called "foo" run startproject either directly from
 the latest archive from github::
 
     django-admin startproject --template=https://github.com/fdemmer/django_project_template/archive/master.zip foo

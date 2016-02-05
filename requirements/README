@@ -1,0 +1,25 @@
+Updating requirements
+---------------------
+
+Requirement input files form a hierarchy using `-r <parent>.in`:
+
+    base.in
+      |-- dev.in
+      `-- prod.in
+
+To update packages add them to a suitable requirements.in file and run:
+
+    pip-compile requirements.in
+
+The generated txt files contain all requirements including those of the parents.
+Repeat this step for all requirement files depending on base.in!
+
+Keep the base/production requirements clean! Put all development requirements
+or special/local requirements in separate files.
+
+The requirements.txt file in the project root for compatibility only uses
+base.txt as parent. Do not put any requirements in there directly!
+
+Tip: find outdated packages in your venv:
+
+    pip list --outdated
