@@ -15,11 +15,15 @@ A few things were added or modified.
 - based on Django 1.9.1 template
 - make settings a module (default uses `settings.dev`)
 - add version.py (`__version__` available via settings)
+
 - add requirements
+
   - uses pip-tools
   - requirements organized by environment
   - `requirements.txt` points to `requirements/dev.txt`
+
 - add extra packages
+
   - django-extensions
   - django-debugtoolbar (only in `requirements/dev.txt`)
 
