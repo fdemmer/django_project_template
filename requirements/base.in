@@ -1,1 +1,10 @@
+# project main/production requirements/dependencies
+#
+
 Django
+
+django-extensions
+
+# djangorestframework
+
+# structlog

@@ -4,8 +4,6 @@
 #
 #    pip-compile base.in
 #
-click==6.2                # via pip-tools
+django-extensions==1.6.1
 Django==1.9.2
-first==2.0.1              # via pip-tools
-pip-tools==1.5
-six==1.10.0               # via pip-tools
+six==1.10.0               # via django-extensions
