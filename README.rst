@@ -11,7 +11,7 @@ This started out as a copy of the original Django template and a few things
 were added or modified:
 
 - based on Django 1.9.1 template
-- make settings a module
+- make settings a module (default uses `settings.dev`)
 - add version.py
 - add requirements (uses pip-tools)
 
