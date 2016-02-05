@@ -5,7 +5,7 @@ Requirement input files form a hierarchy using `-r <parent>.in`:
 
     base.in
       |-- dev.in
-      `-- prod.in
+      `-- prod.in (optional)
 
 To update packages add them to a suitable requirements.in file and run:
 

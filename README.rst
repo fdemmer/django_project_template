@@ -12,12 +12,14 @@ were added or modified:
 
 - based on Django 1.9.1 template
 - make settings a module (default uses `settings.dev`)
-- add version.py
+- add version.py (`__version__` available via settings)
 - add requirements (uses pip-tools)
 
 
 Usage
 -----
+
+This assumes, you already have a virtualenv with Django created and activated.
 
 To create a new project called "foo" run startproject either directly from
 the latest archive from github::
@@ -27,6 +29,16 @@ the latest archive from github::
 Or from a local copy (with new django module/command example)::
 
     python -m django startproject --template=master.zip foo
+
+After that change into your new project directory "foo" and update 
+the virtualenv with the recommended dev requirements::
+
+    cd foo
+    pip install -r requirements/dev.txt
+
+Enjoy your new Django project::
+
+    ./manage.py shell_plus
 
 
 .. [1] https://docs.djangoproject.com/en/1.9/ref/django-admin/#django-admin-startproject
