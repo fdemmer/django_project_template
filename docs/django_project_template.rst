@@ -53,6 +53,17 @@ Enjoy your new Django project::
     ./manage.py shell_plus
 
 
+Use with Vagrant
+----------------
+
+This template is used by the Ansible roles [4]_ of the Vagrant Django 
+bootstrapping project [3]_ to start a Django project with a simple:: 
+
+    vagrant up
+
+
 .. [1] https://docs.djangoproject.com/en/1.9/ref/django-admin/#django-admin-startproject
 .. [2] https://github.com/fdemmer/django_project_template
+.. [3] https://github.com/fdemmer/django_bootstrap
+.. [4] https://github.com/fdemmer/ansible_roles
 
