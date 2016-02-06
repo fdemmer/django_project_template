@@ -18,4 +18,5 @@ except ImportError:
 
 INSTALLED_APPS += [
     'django_extensions',
+    # add project apps here!
 ]
