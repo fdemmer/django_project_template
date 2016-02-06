@@ -8,6 +8,9 @@ SECRET_KEY = '{{ secret_key }}'
 
 DEBUG = True
 
+# disable password validators
+AUTH_PASSWORD_VALIDATORS = []
+
 INSTALLED_APPS += [
     'debug_toolbar',
 ]
