@@ -13,7 +13,11 @@ Basis for this template was the Django 1.9 standard template.
 A few things were added or modified.
 
 - based on Django 1.9.1 template
+
 - make settings a module (default uses `settings.dev`)
+
+  - add `LocaleMiddleware` to default middlewares
+
 - add version.py (`__version__` available via settings)
 
 - add requirements
