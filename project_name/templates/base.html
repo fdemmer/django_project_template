@@ -1,15 +1,15 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="{{ LANGUAGE_CODE }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{% block title %}{% endblock title %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="{% block description %}{% endblock %}">
+        <meta name="author" content="{% block author %}{% endblock %}">
         {% block css %}{% endblock %}
     </head>
-    <body>
+    <body class="{% block body_class %}{% endblock %}">
     {% block content %}{% endblock %}
     {% block javascript %}{% endblock %}
     </body>
